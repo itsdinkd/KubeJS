@@ -34,7 +34,6 @@ public class TechRebornKubeJSPlugin extends KubeJSPlugin {
 
 			for (var s : new String[]{
 					"techreborn:industrial_grinder",
-					"techreborn:industrial_grinder",
 					"techreborn:fluid_replicator",
 			}) {
 				event.register(new ResourceLocation(s), TRRecipeWithTankJS::new);
